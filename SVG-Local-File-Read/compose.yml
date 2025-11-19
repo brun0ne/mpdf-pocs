@@ -1,0 +1,5 @@
+services:
+  mpdf:
+    build: .
+    ports:
+      - "5005:80"
